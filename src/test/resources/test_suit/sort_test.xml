@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/user/homework_7/src/test/java/simple_Test/SortingTest.java">
+        <classes>
+            <class name="simple_Test.FirstAndLastNameSortingTest">
+                <methods>
+                    <include name="sortingByFirstAndLastNameTest"/>
+                </methods>
+            </class>
+            <class name="simple_Test.AgeAndWageSortingTest">
+                <methods>
+                    <include name="sortingAgeAndWageTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
